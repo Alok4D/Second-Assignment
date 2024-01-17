@@ -893,6 +893,11 @@ footer {
   
  
 }
+.c5-banner-text-sec {
+  width: 110%;
+  height: 78px;
+  text-align: left;
+}
 
 }
 /* tablet or medium devices */
