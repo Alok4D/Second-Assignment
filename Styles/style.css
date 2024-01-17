@@ -5,12 +5,22 @@
   font-family: "Mulish", sans-serif;
 }
 
-header, main {
+header{
+  max-width: 1250px;
+  margin: 0 auto;
+}
+main {
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/* header styles */
 .prime-color {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.prime-color-1 {
   color: #ff5400;
 }
 
@@ -24,10 +34,14 @@ header, main {
 .nav-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-logo h2 {
   padding-left: 15px;
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .nav-logo img {
@@ -35,7 +49,7 @@ header, main {
   height: 56.008px;
 }
 
-.nav-menu>ul {
+.nav-menu > ul {
   display: flex;
 }
 
@@ -46,11 +60,11 @@ header, main {
 
 .nav-menu a {
   text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  
 }
-
 /* header styles end */
-
-
 
 /*  */
 .banner-section {
@@ -67,13 +81,13 @@ header, main {
 }
 
 .banner-section h2 {
-  color: #FFF;
+  color: #fff;
   font-size: 64px;
   font-weight: 800;
 }
 
 .banner-section p {
-  color: #FFF;
+  color: #fff;
 
   text-align: center;
   font-size: 16px;
@@ -82,7 +96,7 @@ header, main {
 
 .banner-selected-menu {
   margin-top: 100px;
-  background-color: rgba(255, 255, 255, 0.30);
+  background-color: rgba(255, 255, 255, 0.3);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -93,7 +107,7 @@ header, main {
 
 .banner-selected-text {
   border-radius: 8px;
-  background: #FFF;
+  background: #fff;
   width: 150px;
   padding: 13px 10px;
 }
@@ -105,7 +119,7 @@ header, main {
 
 .findBtn {
   border-radius: 8px;
-  background: #FF5400;
+  background: #ff5400;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -114,8 +128,6 @@ header, main {
   border: none;
   color: white;
 }
-
-
 
 .banner-button i {
   padding: 10px;
@@ -137,7 +149,7 @@ header, main {
   margin: 20px 0px;
   color: rgba(19, 19, 24, 0.7);
 }
-.main-nav{
+.main-nav {
   margin: 0 20px;
 }
 .main-nav li p {
@@ -185,7 +197,6 @@ header, main {
   margin-top: 48px;
 }
 
-
 .img-box,
 .img-box-2,
 .img-box-3 {
@@ -206,9 +217,11 @@ header, main {
 
 .img-box img {
   border-radius: 16px;
-  background: linear-gradient(0deg,
+  background: linear-gradient(
+      0deg,
       rgba(19, 19, 24, 0.2) 0%,
-      rgba(19, 19, 24, 0.2) 100%),
+      rgba(19, 19, 24, 0.2) 100%
+    ),
     url(<path-to-image>), lightgray 50% / cover no-repeat;
   width: 573px;
   height: 300px;
@@ -349,7 +362,6 @@ header, main {
   align-items: center;
 }
 
-
 .banner-7-container h2 {
   width: px;
   color: #131318;
@@ -365,16 +377,18 @@ header, main {
   margin-top: 24px;
   /* 162.5% */
 }
-.banner-7-description{
+.banner-7-description {
   margin: 0px 30px;
 }
 .banner-7-video video {
   width: 610px;
   height: 424px;
   border-radius: 16px;
-  background: linear-gradient(180deg,
-      #131318 -31.96%,
-      rgba(19, 19, 24, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #131318 -31.96%,
+    rgba(19, 19, 24, 0) 100%
+  );
 }
 
 /*  Newsletter Section style */
@@ -567,9 +581,8 @@ footer {
   width: 872px;
   height: 1px;
   background: rgba(19, 19, 24, 0.1);
- 
+
   margin: 50px auto;
- 
 }
 
 /* re */
@@ -580,7 +593,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .horizontal-line{
+  .horizontal-line {
     width: 100%;
   }
 
@@ -630,13 +643,14 @@ footer {
   .choose-card-sec-1 {
     display: block;
     margin: 0 20px;
-
   }
-  .card-sec-1 , .card-sec-2 , .card-sec-3{
+  .card-sec-1,
+  .card-sec-2,
+  .card-sec-3 {
     width: 100%;
     margin-top: 24px;
   }
-  .card-sec-3{
+  .card-sec-3 {
     margin: 24px 20px;
     width: 100%;
   }
@@ -648,29 +662,29 @@ footer {
     margin: 50px 20px;
     display: block;
   }
-  .banner-3-img-sec img{
+  .banner-3-img-sec img {
     width: 100%;
     margin-top: 20px;
   }
-  .newsletter-section{
+  .newsletter-section {
     display: block;
     margin: 100px 20px;
   }
-  .subscribe-section{
+  .subscribe-section {
     margin: 20px 0px;
   }
   .subscribe-section {
     width: 100%;
     height: 422px;
   }
-  .newsletter-banner-img{
+  .newsletter-banner-img {
     width: 100%;
   }
   .banner-7-video video {
     margin-top: 20px;
     width: 100%;
     height: 250px;
-
+  }
 }
 
 @media screen and (min-width: 571px) and (max-width: 940px) {
@@ -711,5 +725,14 @@ footer {
     width: 250px;
     margin-bottom: 20px;
   }
+}
+@media screen and (max-width: 576px) {
+ 
 
+  nav{
+    flex-direction: column;
+  }
+  .nav-menu{
+    margin-top: 20px;
+  }
 }
