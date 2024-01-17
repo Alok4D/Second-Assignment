@@ -442,7 +442,8 @@ select {
   padding-left: 10px;
 }
 
-.btn {
+.btn,
+select {
   width: 393px;
   height: 52px;
 
@@ -573,8 +574,15 @@ footer {
   width: 872px;
   height: 1px;
   background: rgba(19, 19, 24, 0.10);
-
   margin: 40px auto;
+  
+}
+.horizontal-line-1{
+  width: 90%;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  background-color: rgba(19, 19, 24, 0.10);
 }
 
 /* responsive */
@@ -657,7 +665,7 @@ footer {
   }
   .newsletter-section {
     display: block;
-    margin: 100px 20px;
+    margin: 50px 15px;
   }
   .subscribe-section {
     margin: 20px 0px;
@@ -741,6 +749,23 @@ footer {
 }
 .horizontal-line hr{
   width: 80%;
+}
+.subscribe-section p{
+  width: 100%;
+}
+.text-1,
+select {
+  width: 90%;
+}
+.email-1,
+select {
+  width: 90%;
+ 
+}
+.btn,
+select {
+  width: 90%;
+ 
 }
 }
 /* tablet or medium devices */
