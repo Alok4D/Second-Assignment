@@ -250,6 +250,7 @@ main {
   margin-top: 48px;
   margin-bottom: 24px;
   gap: 24px;
+  
 }
 
 .card-sec-1 {
@@ -298,6 +299,8 @@ main {
 .card-sec-3 h2 {
   margin-top: 25px;
   padding-bottom: 10px;
+  
+ 
 }
 
 .card-sec-1 img,
@@ -886,7 +889,8 @@ footer {
 }
 .book-now {
   width: 90%;
-  height: 389px;
+  height: 420px;
+  
  
 }
 
