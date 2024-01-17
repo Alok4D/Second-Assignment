@@ -4,16 +4,14 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
-
 header{
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 main {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 /* header styles */
 .prime-color {
   color: #ff5400;
@@ -23,46 +21,38 @@ main {
 .prime-color-1 {
   color: #ff5400;
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 52px 100px;
+  margin: 50px 95px;
 }
-
 .nav-logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .nav-logo h2 {
   padding-left: 15px;
   color: #131318;
   font-size: 36px;
   font-weight: 800;
 }
-
 .nav-logo img {
   width: 48px;
   height: 56.008px;
 }
-
 .nav-menu > ul {
   display: flex;
 }
-
 .nav-menu li {
   list-style: none;
   margin-left: 20px;
 }
-
 .nav-menu a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
-  
 }
 /* header styles end */
 
@@ -585,7 +575,7 @@ footer {
   margin: 50px auto;
 }
 
-/* re */
+/* responsive */
 @media screen and (max-width: 570px) {
   .banner-section {
     width: 100%;
@@ -726,9 +716,25 @@ footer {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 576px) {
- 
 
+
+/* header responsive */
+@media screen and (max-width: 576px) {
+  nav{
+    flex-direction: column;
+  }
+  .nav-menu{
+    margin-top: 20px;
+  }
+  .nav {
+    
+    
+    
+    margin: 50px 0px;
+}
+}
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width: 960px) {
   nav{
     flex-direction: column;
   }
